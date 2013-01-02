@@ -1,8 +1,5 @@
-require 'Rational'
-require 'mathn'
-
 def ftoc(number)
-  (number-32)*(Rational(5/9))
+  (number-32)*(5/9.to_f)
 end
 
 def ctof(number)
