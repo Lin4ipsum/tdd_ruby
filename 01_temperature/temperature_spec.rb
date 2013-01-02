@@ -16,6 +16,8 @@
 #
 
 require "temperature"
+require 'Rational'
+require 'mathn'
 
 describe "temperature conversion functions" do
 
