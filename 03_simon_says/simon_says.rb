@@ -31,3 +31,4 @@ end
 def capitalize_or_not(word)
   little_words.include?(word) ? word : word.capitalize
 end
+
